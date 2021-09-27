@@ -1,0 +1,62 @@
+.shake-it {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+
+  @keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  100% { transform: translate(1px, -2px) rotate(1deg); }
+  }
+
+.appear-it{
+  animation: appear 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes appear {
+  0% { opacity: 50%; color: #fbbbad}
+  25% { opacity: 50%; color: #ee8695;}
+  50% { opacity: 50%; color: #4a7a96;}
+  75% { opacity: 75%; color: #333f58;}
+  100% { opacity: 100%; color: #292831;}
+}
+
+.my-gradient{
+  background: rgb(255,186,218);
+  background: linear-gradient(90deg, rgba(255,186,218,1) 35%, rgba(0,212,255,1) 100%);     
+}
+
+.strokeme {
+  color: white;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+
+.rotated {
+  transform: rotate(20deg);
+}
+
+.rotated-1 {
+  transform: rotate(-20deg);
+}
+
+.rotated-2 {
+  transform: rotate(10deg);
+}
+
+.birthday-card-1 {
+  background-image: url("./birthday-card-1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 0 15%;
+}
+
+.birthday-card-2 {
+  background-image: url("./birthday-card-2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 0 15%;
+}

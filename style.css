@@ -47,6 +47,11 @@
   transform: rotate(10deg);
 }
 
+.width-40{
+  width: 40%;
+  margin: auto;
+}
+
 .width-80{
   width: 80%;
   margin: auto;
@@ -76,12 +81,12 @@
   background-image: url("./birthday-card-1.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
-  padding: 0 15%;
+  padding: 2% 15%;
 }
 
 .birthday-card-2 {
   background-image: url("./birthday-card-2.jpg");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: 100%;
   padding: 0 15%;
 }
